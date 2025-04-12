@@ -1,0 +1,11 @@
+//
+//  BuildConfig.xcconfig
+//  WaterTracker
+//
+//  Created by Apps4World on 9/23/23.
+//
+
+BASE_BUNDLE_IDENTIFIER = com.sharepeace.waterTracker
+PRODUCT_BUNDLE_IDENTIFIER = $(BASE_BUNDLE_IDENTIFIER)
+WIDGET_PRODUCT_BUNDLE_IDENTIFIER = $(BASE_BUNDLE_IDENTIFIER).widget
+APP_GROUP_IDENTIFIER = group.$(BASE_BUNDLE_IDENTIFIER).shared
